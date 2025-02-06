@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LIPES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Centralizada</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+	    font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-  <center>
-	  <img src="LIPES logo azul.png" width=250px/>
-    <font family="Arial">
-      Comming soon...
-    </font>
-  </center>
+    <div class="container">
+        <img src="LIPES logo azul.png" alt="LIPES">
+	<p>Coming soon...</p>
+    </div>
 </body>
 </html>
